@@ -5,7 +5,7 @@
 }
 
  body {
-	font-family: 'Varela Round', sans-serif; 
+	font-family: 'Dosis', sans-serif;
 	line-height: 1.6;
 	background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
 	padding: 0em;
@@ -29,7 +29,9 @@ img {
 
 a {
 	text-decoration: none;
+	color: #000;
 }
+
 
 
 /* ================================= 
@@ -39,13 +41,14 @@ a {
 /* Navigation */
 
 .name {
+	font-family: 'Dancing Script', cursive;
 	font-size: 3em;
 	margin: 0;
 	text-align: center;
 } 
 
 .main-nav a {
-	color: #ffffffb4;
+	color: #000;
 	font-weight: 300;
 	padding: 5px 15px;
 	text-decoration: none;
@@ -55,6 +58,10 @@ a {
 
 .main-nav a:hover {
 	color: #00fffe;
+}
+
+.main-nav a:active {
+	color: dodgerblue;
 }
 
 .list-nav {
@@ -71,7 +78,7 @@ a {
     margin-bottom: 4px;
     text-align: center;
     list-style-type: none;
-	font-size: .75em;
+	font-size: 1.2em;
 }
 
 
@@ -166,7 +173,19 @@ footer {
 }
 
 .footer-nav a:hover {
-    color: rgb(162, 46, 175);
+    color: #00fffe;
+}
+
+.footer-nav a:active {
+    color: dodgerblue;
+}
+
+.footer-nav2 a:hover {
+    color: #00fffe;
+}
+
+.footer-nav2 a:active {
+    color: dodgerblue;
 }
 
 .footer-nav2 {
@@ -189,12 +208,14 @@ footer ul {
 }
 
 .bottom-name {
-    margin-right: auto;
+	font-family: 'Dancing Script', cursive;
+	margin-right: auto;
+	margin-top: 1em;
+	font-size: 2em;
 }
 
-
 footer p{
-    text-align:  center;
+    text-align: center;
     padding: 1em;
 }
 
@@ -205,17 +226,6 @@ footer p{
 .up {
     display: contents;
 }
-
-
-/* Clearfix */
-
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-
 
 /* Media Queries */
 
@@ -300,7 +310,7 @@ footer p{
 	}
 
 	.name {
-		margin: .3em auto 1em 2em;
+		margin: .3em auto 1em 1em;
 	}
 
 	.port {
@@ -311,7 +321,7 @@ footer p{
 		flex-wrap: nowrap;
 		padding-top: 2em;
 		margin-top: 0;
-		margin-right: 2.5em;
+		margin-right: 4em;
 	}
 
 	.list-nav li {
