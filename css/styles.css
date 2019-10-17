@@ -110,6 +110,7 @@ a {
 }
 
 .port {
+	padding-top: 1em;
     text-transform: uppercase;
 	margin: 1em auto;
 }
@@ -153,6 +154,30 @@ footer {
     height: 70%;
     width: 100%;
 }
+
+.skills {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+  }
+  
+  .skills h2 {
+	padding-bottom: .5em;
+	text-transform: uppercase;
+  }
+  
+  .skills ul {
+	padding: 0 .8em;
+  }
+  
+  .skills li {
+	border-radius: 6px;
+	display: inline-block;
+	background: rgba(133, 202, 197, 0.4);
+	padding: .6em .6em;
+	margin: .3em;
+  }
 
 /* Footer Styles */
 
@@ -279,15 +304,23 @@ footer p{
 		width: 45%;
 		margin-right: .25em;
 		margin-left: .25em;
+		min-height: 450px;
 	}
 
 	.hide {
-		display: none;
+		display: contents;
 	}
 	
 	.up {
-        display: contents;
-    }
+        display: none;
+	}
+	
+	.footer-nav2 ul a{
+		padding-right: .2em;
+		justify-content: space-between;
+		margin-right: .2em;
+	}
+ 
 }
 
 @media (min-width: 1024px) {
@@ -352,10 +385,6 @@ footer p{
 		float: right;
 	}
 
-	.back-to{
-		display: none;
-	}
- 
 	.footer-nav2 ul {
 		display: inline-flex;
 	}
