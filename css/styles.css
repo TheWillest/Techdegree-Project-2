@@ -34,7 +34,7 @@ a {
 
 
 
-/* ================================= 
+/* =================================
   Base Layout Styles
 ==================================== */
 
@@ -45,7 +45,7 @@ a {
 	font-size: 3em;
 	margin: 0;
 	text-align: center;
-} 
+}
 
 .main-nav a {
 	color: #000;
@@ -93,7 +93,7 @@ a {
 .banner p{
     line-height: 1.5em;
     font-size: 1.10em;
-    color: #000;  
+    color: #000;
 }
 
 .banner {
@@ -105,7 +105,7 @@ a {
 
 .banner img {
     width: 60%;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
             box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
@@ -126,7 +126,7 @@ footer {
 }
 
 .col img {
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
             box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
@@ -161,16 +161,16 @@ footer {
 	border-top: 1px dotted black;
 	border-bottom: 1px dotted black;
   }
-  
+
   .skills h2 {
 	padding-bottom: .5em;
 	text-transform: uppercase;
   }
-  
+
   .skills ul {
 	padding: 0 .8em;
   }
-  
+
   .skills li {
 	border-radius: 6px;
 	display: inline-block;
@@ -284,13 +284,13 @@ footer p{
 		width: 90%;
 		align-items: flex-start;
 	}
-  
+
 	.banner img {
 		height: 100%;
 		width: 90%;
 		margin-left: 2em;
 	}
-  
+
 	.banner p {
 		order: -1;
 		text-align: left;
@@ -310,17 +310,21 @@ footer p{
 	.hide {
 		display: contents;
 	}
-	
+
 	.up {
         display: none;
 	}
-	
+
 	.footer-nav2 ul a{
 		padding-right: .2em;
 		justify-content: space-between;
 		margin-right: .2em;
 	}
- 
+
+ 	.skills {
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -328,7 +332,7 @@ footer p{
 	p {
         font-size: 1.2em;
 	}
-	
+
 	.banner {
 		margin-bottom: 1em;
 	}
@@ -337,7 +341,7 @@ footer p{
 		width: 35%;
 		margin-left: 2em;
 	}
-	
+
 	.navbar {
 		display: flex;
 	}
@@ -349,7 +353,7 @@ footer p{
 	.port {
 		margin-bottom: 2em;
 	}
-	
+
 	.list-nav {
 		flex-wrap: nowrap;
 		padding-top: 2em;
@@ -365,7 +369,7 @@ footer p{
 	.bot {
 		width: 30%;
 		margin-right: .5em;
-		margin-left: .5em;	
+		margin-left: .5em;
 	}
 
 	.up {
@@ -375,7 +379,7 @@ footer p{
 	.main-header {
 		flex-direction: row;
 	}
-	
+
 	.name {
 		float: left;
 
@@ -388,18 +392,18 @@ footer p{
 	.footer-nav2 ul {
 		display: inline-flex;
 	}
- 
+
 	.footer-nav2 ul a{
 		padding-right: .5em;
 		justify-content: space-between;
 		margin-right: .5em;
 	}
- 
+
 	.footer-nav2 {
 		padding-right: 0;
 	}
-	
+
 	.hide {
-		display: contents;	
+		display: contents;
 	}
-} 
+}
